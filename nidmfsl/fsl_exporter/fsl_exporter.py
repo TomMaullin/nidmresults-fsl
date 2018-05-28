@@ -1191,6 +1191,7 @@ class FSLtoNIDMExporter(NIDMExporter, object):
 
             cluster_mm_file = os.path.join(
                 analysis_dir, 'cluster_' + prefix + str(stat_num) + '_sub.txt')
+            print(cluster_mm_file)
             peak_mm_suffix = "_sub"
 
         if not os.path.isfile(cluster_mm_file):
